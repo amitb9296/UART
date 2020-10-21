@@ -11,9 +11,8 @@ The optional parity bit is used for error detection. For odd parity, it is set t
 For even parity, it is set to 0 when the data bits have an even number of 1's. 
 The number of stop bits can be 1, 1.5 or 2. 
 
-=================================================================================
-Note that the LSB of the data word is transmitted first.
-=================================================================================
+# Note that the LSB of the data word is transmitted first.
+
 
 Transmission with 8 data bits, no parity, and 1 stop bit is shown in Figure.
 
