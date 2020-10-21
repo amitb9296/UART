@@ -16,10 +16,3 @@ The number of stop bits can be 1, 1.5 or 2.
 
 Transmission with 8 data bits, no parity, and 1 stop bit is shown in Figure.
 
-		___Idle
-	   /
-	  /	       __Start Bit											 ___Stop Bit
-	 /        /														/
-____/_____   /   ____  ____  ____  ____  ____  ____  ____  ____  __/_____
-		 |  /   / d0 \/ d1 \/ d2 \/ d3 \/ d4 \/ d5 \/ d6 \/ d7 \/ /	 :	
-		 |______\____/\____/\____/\____/\____/\____/\____/\____/     :
