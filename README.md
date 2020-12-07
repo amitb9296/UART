@@ -12,3 +12,13 @@ For even parity, it is set to 0 when the data bits have an even number of 1's.
 The number of stop bits can be 1, 1.5 or 2. 
 
 # Note that the LSB of the data word is transmitted first.
+
+
+            __Idle
+           /
+          /	   _Start Bit	    	    		      	         _Stop Bit
+         /    /					                /
+    ____/_   /   ____  ____  ____  ____  ____  ____  ____  ____  __/_____
+         |  /   / d0 \/ d1 \/ d2 \/ d3 \/ d4 \/ d5 \/ d6 \/ d7 \/ /	 :	
+         |______\____/\____/\____/\____/\____/\____/\____/\____/     :
+  
